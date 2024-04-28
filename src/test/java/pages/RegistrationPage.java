@@ -11,7 +11,7 @@ public class RegistrationPage {
     CalendarComponent calendarComponent = new CalendarComponent();
     ResultComponent resultComponent = new ResultComponent();
 
-    private SelenideElement
+    private final SelenideElement
             firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             userEmailInput = $("#userEmail"),
