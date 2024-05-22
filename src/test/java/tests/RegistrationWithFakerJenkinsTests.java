@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import utils.RandomUtils;
 
-@Tag("demoqa")
+@Tag("faker")
 @DisplayName("Registration with faker jenkins tests")
 public class RegistrationWithFakerJenkinsTests extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
